@@ -1,3 +1,10 @@
+<?php
+if(!isset($_SESSION['loggedin'])){
+    header('Location: login1.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
